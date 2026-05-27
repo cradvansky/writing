@@ -1,0 +1,14 @@
+samples/
+.env
+.env.*
+!.env.example
+*.pst
+*.eml
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.token
+*.token
+graph_cache.json

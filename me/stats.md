@@ -1,6 +1,6 @@
 # Quick-Reference Stats
 
-> The specific numbers you drop into content as social proof. This is the fast-lookup version — just the figures, no narrative. For the full story behind each number, see [data.md](data.md).
+> The specific numbers you drop into content as social proof. This is the fast-lookup version - just the figures, no narrative. For the full story behind each number, see [data.md](data.md).
 
 ## Audience & reach
 
@@ -72,7 +72,7 @@
 ## Rules for using these numbers
 
 - State them as facts, not brags. "I tested 50+ landing pages" not "I'm proud to have tested 50+ landing pages."
-- Always use the specific figure ($1.2M, 20%, 7x) — never round to "millions" or "a lot."
+- Always use the specific figure ($1.2M, 20%, 7x) - never round to "millions" or "a lot."
 - Pair a success stat with the struggle stat that preceded it for contrast.
 - Never invent or extrapolate numbers. If it's not in this file, don't cite it.
-- Note the "Updated" column — stale stats erode trust. Review quarterly.
+- Note the "Updated" column - stale stats erode trust. Review quarterly.
