@@ -1,34 +1,52 @@
-# Writing — Status
+# Writing - Status
 
-**Phase:** Discovery
+**Phase:** Build (V1 shipped 2026-05-27)
 **Priority:** Medium
 **Last Session:** 2026-05-27
-**Next Focus:** Run sample ingest (Granola + Outlook + LinkedIn), then distill into `me/*.md`
+**GitHub:** https://github.com/cradvansky/writing (forked from jonocatliff/writing)
+**Next Focus:** Real-world test - draft a LinkedIn post + cold email via the skills and iterate `me/*.md` based on what feels off
 
-## Current state
+## V1 shipped
 
-Fork of jonocatliff/writing cloned to `/var/www/writing`. Template ships with:
+Forked jonocatliff/writing, populated `me/` from real harvested samples, added 3 custom skills, pushed to https://github.com/cradvansky/writing.
 
-- `me/` — 8 unfilled voice files (identity, tone, vocabulary, beliefs, stories, analogies, humour, data, stats)
-- `.claude/skills/linkedin/SKILL.md` — LinkedIn writer skill (uses `me/`)
+### Harvested samples (gitignored, ~3 MB on disk)
 
-Rad scaffolding added: CLAUDE.md, this STATUS.md, .gitignore.
+| Source | Files | Size | Pulled via |
+|---|---|---|---|
+| Granola transcripts | 27 | 1.3 MB | Direct read from `rad_dashboard.granola.meetings` |
+| LinkedIn posts | 100 | 416 KB | n8n proxy `writing-linkedin-scrape` (id `1rbUrIjLy4bFliW2`) wrapping Apify `apimaestro/linkedin-profile-posts` |
+| Outlook sent items | 223 | 1.2 MB | n8n proxy `writing-outlook-sent` (id `sNyoG9vGTUtDKAJH`) using Microsoft Graph `/me/mailFolders/sentitems/messages` with the `Rad.com Outlook` credential (`ggymNDDHY1yNe4ae`) |
 
-## Inventory
+### `me/` populated
 
-- Granola: 27 meetings with transcripts available in `rad_dashboard.granola.meetings`
-- Outlook: Microsoft Graph route confirmed — needs one-time device-code auth
-- LinkedIn: Apify actor `apimaestro/linkedin-profile-posts` is the path; token TBD
+All 8 dossier files filled with verbatim quotes plus `> source:` provenance. Em-dashes scrubbed per Rad voice rules.
+
+### `.claude/skills/`
+
+- `linkedin/` - from Jono's template (unchanged)
+- `email/` - cold intro, warm reply, scope/pricing, scheduling, internal - one of 7 patterns per draft
+- `proposal-blurb/` - one-liner through deep-dive scope copy
+- `capture-voice/` - re-runnable distillation skill (read `samples/` to update `me/*.md`)
+
+### `scripts/`
+
+- `ingest_granola.py` - reads from `rad_dashboard.granola.meetings`, requires `GRANOLA_PG_PASSWORD` env (or falls back to `/var/www/rad-dashboard/granola/builder/.env`)
+- `ingest_linkedin.py` - calls n8n proxy
+- `ingest_outlook.py` - calls n8n proxy
+
+## n8n workflows owned by this project
+
+- `1rbUrIjLy4bFliW2` writing-linkedin-scrape (ACTIVE)
+- `sNyoG9vGTUtDKAJH` writing-outlook-sent (ACTIVE)
+
+Both use stored credentials only - no tokens in the repo.
 
 ## Next session
 
-1. Run `scripts/ingest_granola.py` → populates `samples/granola/`
-2. Wire up Graph device-code flow → run `scripts/ingest_outlook.py`
-3. Run `scripts/ingest_linkedin.py` against cradvansky profile
-4. Invoke `/capture-voice` skill — distill samples into `me/*.md`
-5. Test with `/linkedin "..."` — verify the draft sounds like Chris
+1. **Real test:** From Claude Code in this repo, run `/linkedin "..."` and `/email "..."` against a real prompt. Validate the voice.
+2. **Iterate `me/*.md`** when a draft is off. The fix is in the dossier, not the skills.
+3. **Refresh samples** if 27 Granola transcripts feels light - re-run `scripts/ingest_granola.py` periodically as new meetings come in.
+4. **Optional:** add `cold-outreach/`, `speaking-pitch/`, or `youtube-script/` skills as new channels emerge.
 
-## Blockers
-
-- Apify token not in `/root/radcrm-agents/.env` (var is empty); not in any plaintext file under `/root/`. n8n has 4 Apify credentials encrypted in DB. Need to either: (a) Chris pastes his Apify token, or (b) we proxy LinkedIn scrape through an n8n workflow that uses an existing stored credential.
-- Microsoft Graph app registration: needs Chris to approve the device-code in a browser.
+## No active blockers
