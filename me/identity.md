@@ -6,7 +6,7 @@
 
 - **Full name:** Chris Radvansky
 - **Goes by:** Chris (never Casper, never Christopher)
-- **Email:** chris@radconsultants.com (preferred), chris@radconsultants.org (legacy)
+- **Email:** chris@radconsultants.com (preferred), chris@radconsultants.com (legacy)
 - **Phone:** 215.801.3625
 - **LinkedIn:** linkedin.com/in/radaiworkflows
 - **Website:** RadConsultants.com (switched from .org to .com on 2026-04-22 for credibility, joked publicly about it)
@@ -26,7 +26,7 @@
 
 ### Offer stack
 
-1. **Free tier:** AI-generated marketing engine lead-magnet pages at clutchsales.radconsultants.com/plan/{slug} - prospects walk through a personalized plan for their company.
+1. **Free tier:** AI-generated marketing engine lead-magnet pages at radsales.radconsultants.com/plan/{slug} - prospects walk through a personalized plan for their company.
 2. **Entry offer:** Initial month engagement to prove value before commitment. "It is my goal to give you something of value this month that you can walk away with but also show you the value that I can deliver to see if you want to continue to work together beyond this initial month."
 3. **Core offer:** Custom AI workflow build, project-based, typically 3 weeks to 2 months.
 4. **Premium offer:** Ongoing retainer where Rad becomes the client's "friendly AI consultant" on call.
@@ -88,7 +88,7 @@
 - **Calendar (short call):** "Book a Rad chat" appears in many email signatures.
 - **Website:** RadConsultants.com
 - **Portfolio of client solutions:** RadConsultants.com (scrubbed, clickable demos)
-- **Marketing engine lead magnet:** https://clutchsales.radconsultants.com/plan/{prospect-slug}
+- **Marketing engine lead magnet:** https://radsales.radconsultants.com/plan/{prospect-slug}
 - **Email signature standard:**
   ```
   Chris Radvansky

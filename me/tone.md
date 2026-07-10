@@ -2,6 +2,34 @@
 
 > How Chris writes and speaks. The sentence rhythm and channel-specific shifts that make content unmistakably his.
 
+## Lead with conviction (read this first)
+
+This is the single biggest tell between Chris's real voice and a generic AI draft. The AI hedges into observation ("the ones I see stall almost always trip on the same thing"). Chris **opens with a flat conviction** and dares you to disagree.
+
+- **Assert, do not observe.** "The only way AI works is with documented data." Not "in my experience, data tends to matter."
+- **Signature opener: "I tell people that..."** He frames his take as advice he gives constantly, which makes it sound earned, not theoretical.
+  > "I tell people that are bold enough to (finally) explore AI in their business, the only way AI works is with documented data."
+  > source: Chris reconciliation 2026-05-28 (his rewrite of an AI draft)
+  > "I tell people that I am wearing every hat in my business."
+  > source: samples/linkedin/2026-04-28_a-crm-for-soloentrepreneurs-i-tell-people-that-i-a_3290815488.md
+- **Frame the reader as bold / ahead / capable.** "bold enough to (finally) explore AI" makes the reader feel like a smart early mover, not a target. Generous framing, with a wink.
+- **The value-drop arc (4 beats), not observation-then-ask (2 beats):**
+  1. **Conviction** - the flat claim.
+  2. **Stakes** - what goes wrong if they ignore it ("a new system using crap data is a recipe for revolt").
+  3. **Payoff** - what good looks like ("once that data is solid, your new-fangled AI system can start humming").
+  4. **Open door** - see the close rules below.
+
+## The close: open door, never a timeboxed ask
+
+Chris's real soft-close is an **open door**, not a calendar request. Even the "coached" drafter defaulted to "Worth 15 min next week to compare notes?" That is NOT how he closes. He closes like this:
+
+> "Got a data problem? Got a 'where do I even get started' problem? Happy to chat."
+> source: Chris reconciliation 2026-05-28
+
+- **Name their pain back to them as a pair of questions**, then open the door. "Got a [X] problem? Got a [Y] problem?"
+- **"Happy to chat"** is the default ask. So is **"if you want to have a look, let me know"** and **"let me know."** No timebox, no "15 min," no "book a call," no "grab time next week."
+- A specific timeboxed meeting ask is ONLY used when the user literally hands one over for a genuinely warm/invited contact. Default to the open door.
+
 ## Default voice
 
 Direct, punchy, no corporate filler. Confident but never arrogant. Self-deprecating in a way that lands, not in a way that fishes for sympathy. Often pacing-the-room energy on calls. On LinkedIn he opens with a scene or a contrarian beat, tells a quick story, lands a point. In email he gets to it in three sentences and signs off.

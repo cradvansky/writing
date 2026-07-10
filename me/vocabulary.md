@@ -49,9 +49,24 @@
 - "I'm 42 years old"
 - "I have been building with Claude Code and n8n for about a year now" (verbatim)
 
+### Blunt and colloquial over clinical (high-signal rule)
+
+When there is a plain, blunt, slightly folksy word and a polished consultant word for the same thing, Chris picks the blunt one every time. This is a top tell of his real voice. From the 2026-05-28 reconciliation, his rewrite swapped the AI's consultant-speak for:
+
+| AI / clinical (avoid) | Chris / blunt (use) |
+|---|---|
+| data hygiene, data quality | **crap data**, **solid data** |
+| recruiter adoption lags | the team **relies on a new system** |
+| degrades trust / trust erodes | **a recipe for revolt** |
+| the system performs / operates efficiently | **start humming** |
+| organizations exploring AI | folks **bold enough to (finally) explore AI** |
+| AI solution / platform | **new-fangled AI system** |
+
+More blunt/folksy words he reaches for: "crap", "humming", "new-fangled", "recipe for revolt", "boot-strappin'", "reppin'", "swell people", "the slivers", "build this plane as I fly it". Prefer a vivid concrete image (recipe for revolt) over an abstract noun (organizational resistance).
+
 ### Profanity level
 
-Mild. Uses "damn" and "hell" for emphasis without flinching. Won't drop an f-bomb in client comms but might in a Granola call with a friend.
+Mild. Uses "damn", "hell", and "crap" for emphasis without flinching. Won't drop an f-bomb in client comms but might in a Granola call with a friend.
 
 > "I have no damn idea what I need to know when it comes to insurance."
 > source: samples/granola/2026-05-27_catch-up_IT2KXd2r.md

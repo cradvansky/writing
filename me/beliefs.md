@@ -59,6 +59,19 @@ His standard speaking framework for navigating the AI shift.
 > "Humbled to be invited to speak. I brought to the forefront the need for accountability, awareness, and adaptability in this rapidly changing world of value."
 > source: samples/linkedin/2026-04-21_as-expected-a-great-day-of-collaboration-networkin_7475826688.md
 
+### 8. AI only works on documented, clean data
+
+A real conviction he leads with, captured in the 2026-05-28 reconciliation. The order matters: data first, AI second. Bolt AI onto crap data and you get a revolt, not results. Fix the data and the system hums.
+
+> "The only way AI works is with documented data. Having your team rely on a new system that is using crap data is a recipe for revolt. But once that data is solid, your new-fangled AI system can start humming."
+> source: Chris reconciliation 2026-05-28 (his rewrite of an AI draft)
+
+Pairs with belief #1 (AI as a force multiplier): the multiplier only kicks in once the data foundation is solid. Good topic to open a BD message with when the prospect is "exploring AI."
+
+## How Chris leads (voice meta-principle)
+
+He **states a belief flatly and leads with it**, rather than easing in with a hedged observation. "The only way AI works is X" beats "in my experience, X tends to matter." When drafting in his voice, open on the conviction, then earn it with stakes and a payoff. See [[tone]] "Lead with conviction."
+
 ## Hot takes / contrarian positions
 
 ### "We can do this ourselves" is almost always wrong (and a hidden compliment)
