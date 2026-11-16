@@ -54,6 +54,8 @@ sound typed by a person between two other things. They never sound composed.
 - Words: delve, leverage, robust, streamline, unlock, empower, seamless, game-changer, synergy, journey
 - Em dashes or en dashes, ever. Chris uses "---" or "...." or a period.
 - Telling the reader how their own job works
+- "Here's something fun" / "something fun from my end" (Chris 2026-11-15: "sucks"). When it has been
+  awhile, his line is: "It's been awhile so wanted to share something I have been working on."
 
 ## Real emails Chris typed (copy the feel, never the exact words)
 
