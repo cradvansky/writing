@@ -40,6 +40,12 @@ sound typed by a person between two other things. They never sound composed.
     separate things. No bold labels. No lead-in ending in a colon.
 13. Every email waits for Chris's approval before it sends.
 
+**Exception, warm notes only (Chris, 2026-11-18).** The Today page notes to people Chris marked "I know
+them" in evyAI use his own files announcements/warm-radroot.md, warm-website.md and warm-introducer.md,
+word for word. Those notes open "It's me! Chris Rad!", may run several short paragraphs, and close with
+one who-do-you-know ask. That exception covers only those three files. Every other email, every riff and
+every client email still follows rules 2 and 9: one short paragraph, an open door, no ask.
+
 ## Instant AI tells (never write these)
 
 - "I'm writing because..." / "I wanted to reach out" / "I hope this finds you well"
